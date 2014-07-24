@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    font-family: "Raleway";
+}
+
+h1, h2, h5 {
+    font-family: "Raleway";
+    color: #092c4a;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: white;
+}
+
+.top-nav {
+    border: none;
+    background-color: white;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.navbar-item {
+    font-family: "Raleway";
+    color: #092c4a;
+}
+
+
+.nav.nav-center {
+    margin:0;
+    float:none;
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+.nav-slash:hover {
+   pointer-events: none;
+   cursor: default;
+   color: #092c4a;
+}
+
+#footer {
+    margin-top: 5px;
+    background-color: white;
+    height: 60px;
+    text-align: center;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
