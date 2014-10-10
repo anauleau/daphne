@@ -1,6 +1,6 @@
 @font-face {
-    font-family: typefaceAdec;
-    src: url("assets/fonts/ss_adec.otf") format("opentype");
+    font-family: skipLegDay;
+    src: url("assets/fonts/SkipLegDay.ttf") format("truetype");
 }
 
 @font-face {
@@ -14,8 +14,7 @@ html, body {
 }
 
 h1, h2, h3, h5 {
-    font-family: "typefaceAdec";
-    zoom: 200%;
+    font-family: "skipLegDay";
     color: #092c4a;
     text-align: center;
     margin-top: 5px;
@@ -43,7 +42,8 @@ h1, h2, h3, h5 {
 }
 
 .navbar-item {
-    font-family: "bonveno";
+    font-family: "skipLegDay";
+    font-size: 16;
     color: #092c4a;
 }
 
@@ -61,17 +61,6 @@ h1, h2, h3, h5 {
    pointer-events: none;
    cursor: default;
    color: #092c4a;
-}
-
-#footer {
-    margin-top: 5px;
-    background-color: white;
-    height: 60px;
-    text-align: center;
-}
-
-#wrap {
-    min-height: 600px;
 }
 
 .bio-body {
@@ -98,7 +87,16 @@ h1, h2, h3, h5 {
 }
 
 #dh {
-    height: 25px;
+    font-size: 62px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.dsid {
+    text-align: center;
+    margin: 0px;
+    font-size: 16px;
+    font-family: skipLegDay;
 }
 
 .projectList {

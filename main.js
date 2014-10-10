@@ -15,5 +15,7 @@ daphne.config(function($routeProvider) {
         .when('/projects', {
             templateUrl: 'views/projects.html'
         })
-        .whe
+        .when('/press', {
+            templateUrl: 'views/press.html'
+        })
 });
