@@ -2,16 +2,17 @@
 <html lang="en" ng-app="daphne">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="">
+        <meta name="Daphne Steingberg Design" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Daphne Steinberg</title>
-        <link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">    
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="bower_components/lightbox/css/lightbox.css">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="col-md-8">
+        <div class="">
             <nav class="navbar navbar-default navbar-custom" role="navigation">
                 <div class="container">
                     <div class="row">
@@ -21,16 +22,34 @@
                     <div class="row top-nav center">
                         <div class="navbar-inner">
                             <ul class="nav navbar-nav nav-list">
-                                <li><a href="#/projects">Projects</a></li>
                                 <li><a href="#/about">About</a></li>
-                                <li><a href="#/contact">Contact</a></li>
+                                <li><a href="#/projects">Projects</a></li>
                                 <li><a href="#/press">Press</a></li>
+                                <li><a href="http://daphnesteinberg.tumblr.com/">Blog</a></li>
+                                <li><a href="#/contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
-            <ng-view></ng-view>
+            <div class="viewport">
+                <ng-view></ng-view>
+            </div>
+            <div class="social-footer">
+                <div class="container">
+                    <div class="row text-center top-nav">
+                        <ul class="list-inline">
+                            <li><a href="http://www.houzz.com/pro/daphnebroccoli/daphne-steinberg-interior-design">Houzz</a></li>
+                            <li><a href="http://instagram.com/daphnethedesigner">Instagram</a></li>
+                            <li><a href="http://www.pinterest.com/designerdaphne/">Pinterest</a></li>
+                            <li><a href="http://twitter.com/DSInteriorD">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center rights">
+                <p>All Rights Reserved.</p>
+            </div>
         </div>
         <!-- LE JAVASCRIPT -->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
