@@ -140,3 +140,7 @@ h1, h2, h3, h5, h4, li {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     margin: auto;
 }
+
+.back-link {
+    padding-left: 20px;
+}
