@@ -144,3 +144,15 @@ h1, h2, h3, h5, h4, li {
 .back-link {
     padding-left: 20px;
 }
+
+.size-img-horiz {
+    height: 200px;
+}
+
+.size-img-vert {
+    height: 300px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
